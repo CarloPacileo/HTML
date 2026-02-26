@@ -1,23 +1,32 @@
-#generale {
-  background-color: black;
+body {
+  background-color: #1A1A1A;
   font-family: Japanese;
   color: white;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 150px;
 }
 
-@media(min-width:1380px){
-  #generale{background-image: url(img/sfondo.jpeg);}
+#inizio{
+  margin-top: 30px;
 }
-
 #immagine{
   height: 200px;
-  margin-top: 10px;
+  margin-top: 50px;
+  background-image: url(img/sfondo.jpeg);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
 }
 
-@media(max-width:1379px){
-  #immagine{background-image: url(img/sfondo_2.jpeg);background-position: center; background-size: 500px; background-repeat: no-repeat;}
+#chisiamo{
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+#maestro{
+  margin-bottom: 200px;
+}
+
+#corsi{
+  margin-bottom: 200px;
 }
 
 @media(max-width: 500px){
@@ -28,8 +37,8 @@
 
 
 #nav {
-  background-color: black;
-  border-bottom: 1px solid white;
+  background-color: #0A0A0A;
+  border-bottom: 2px solid #303030;
 }
 
 #banner {
@@ -44,19 +53,32 @@
   justify-content: flex-end;
   flex-direction: column;
   position: relative;
-  border: 1px solid white;
+  border: 1px solid #303030;
 }
 
 h1{
     font-weight: bold;
     margin-top: 20px;
-    border-bottom: 1px solid white;
 }
 
 h2{
   margin-top: 20px;
   border-bottom: 1px solid white;
 }
+
+h6{
+  font-weight: bold;
+}
+
+#contatti{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#info{
+  font-size: 15px;
+}
+ 
 
 p{
   text-align: justify;
@@ -91,4 +113,11 @@ p{
 .card-title{
   font-weight: bold;
   border-bottom: 1px solid white;
+}
+
+#footer{
+  background-color: #0A0A0A;
+  margin-top: 400px;
+  height: 500px;
+  border-top: 2px solid #303030;
 }
