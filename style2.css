@@ -7,16 +7,24 @@ body {
 }
 
 #inizio{
-  margin-top: 30px;
+  background-color:#0A0A0A ;
+  border: 1px solid #303030;
+  align-content: center;
+  background-image: url(img/sfondo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+  
 }
-#immagine{
+/* #immagine{
   height: 200px;
   margin-top: 50px;
   background-image: url(img/sfondo.png);
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
-}
+} */
 
 #chisiamo{
   margin-bottom: 200px;
@@ -32,8 +40,8 @@ body {
 }
 
 @media(max-width: 500px){
-  #immagine{
-    background-size: 300px;
+  #inizio{
+    background-size: 350px;
   }
 }
 
