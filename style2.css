@@ -1,5 +1,5 @@
 body {
-  background-color: #1A1A1A;
+  background-color: black;
   font-family: Japanese;
   color: white;
   overflow-x: hidden;
@@ -12,7 +12,7 @@ body {
 #immagine{
   height: 200px;
   margin-top: 50px;
-  background-image: url(img/sfondo.jpeg);
+  background-image: url(img/sfondo.png);
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
