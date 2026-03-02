@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galleria</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style2.css" />
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!--Navbar-->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-expand-md navbar fixed-top navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/fudoshin.png" width="30" height="30" alt="" />Kyoukuen Do Jujitsu</a
+            >
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a style="font-weight: bold" class="nav-link" href="galleria.html">GALLERIA</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="footer">
+            <div id="contatti" class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-122">
+                        <h6>DOVE CI TROVIAMO</h6>
+                        <p><span id="info">Via Salvador Dali', 28, 80126 Napoli NA</span></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h6>CONTATTI</h6>
+                        <p><span id="info">Telefono: +391234567890</span></p>
+                        <p><span id="info">E-mail: email@gmail.com</span></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h6>SOCIAL</h6>
+
+                        <span class="flex-nowrap" onmouseover="return acceso(this)" onmouseout="return spento(this)"
+                            ><a href="https://www.instagram.com/maestroluigiesposito/"
+                                ><img
+                                    class="icone"
+                                    id="instagram"
+                                    src="img/instagram.png"
+                                    width="25px"
+                                    height="25px" /></a
+                        ></span>
+
+                        <span class="flex-nowrap" onmouseover="return acceso(this)" onmouseout="return spento(this)"
+                            ><a href="https://www.facebook.com/share/1AErMPnZPs/"
+                                ><img
+                                    class="icone"
+                                    id="facebook"
+                                    src="img/facebook.png"
+                                    width="25px"
+                                    height="25px" /></a
+                        ></span>
+
+                        <span class="flex-nowrap" onmouseover="return acceso(this)" onmouseout="return spento(this)"
+                            ><a href="https://www.tiktok.com/@maestroluigiesposito?is_from_webapp=1&sender_device=pc"
+                                ><img class="icone" id="tiktok" src="img/tiktok.jpg" width="25px" height="25px" /></a
+                        ></span>
+
+                        <span class="flex-nowrap" onmouseover="return acceso(this)" onmouseout="return spento(this)"
+                            ><a href="https://youtube.com/@kyoukendojujitsunapoli?si=IjSwfodZBuC10mlZ"
+                                ><img class="icone" id="youtube" src="img/youtube.png" width="25px" height="25px" /></a
+                        ></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

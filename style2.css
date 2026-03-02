@@ -33,7 +33,6 @@ body {
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
-
 }
 
 #chisiamo {
@@ -66,15 +65,16 @@ body {
   height: 600px;
   width: 100%;
   background-size: cover;
-  /* Testo al centro */
+  border-bottom: 2px solid #303030;
+  /* ← limita la larghezza */
+  max-width: 100vw;
+  overflow: hidden;
+  margin-top: 60px ;
+  /* Testo al centro
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  position: relative;
-  border-bottom:2px solid #303030;
-  max-width: 100vw;
-  /* ← limita la larghezza */
-  overflow: hidden;
+  position: relative; */
 }
 
 h1,
@@ -88,6 +88,7 @@ h2 {
 h4 {
   font-size: 20px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 #titolo {
@@ -107,7 +108,7 @@ h2 {
   margin-top: 20px;
 }
 
-.underliner{
+.underliner {
   border-bottom: 2px solid white;
   margin-top: 5px;
 }
