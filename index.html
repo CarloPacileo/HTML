@@ -75,10 +75,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                        <a class="btn btn-dark button" href="#corsi">CORSI</a>
+                        <a class="btn btn-dark button" href="#corsi">SCOPRI I CORSI</a>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                        <a class="btn btn-dark button" href="#chisiamo">CHI SIAMO</a>
+                        <a class="btn btn-dark button" href="https://web.whatsapp.com">CHIEDI INFO</a>
                     </div>
                 </div>
                 <div class="container">
@@ -109,12 +109,12 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <h4>LOREM IMPSUM</h4>
+                        <h3>LOREM IMPSUM</h3>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-10 col-md-12 col-sm-12 col-12">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-12">
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus aut unde commodi, nam
                             ullam praesentium neque quis ducimus cumque illo hic incidunt atque sunt, dolorum reiciendis
@@ -155,19 +155,14 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <h4>SENSEI LUIGI ESPOSITO</h4>
+                        <h3>SENSEI LUIGI ESPOSITO</h3>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-9 col-9">
                         <a class="glightbox" href="img/maestro.jpeg">
-                            <img
-                                style="margin-bottom: 10px; margin-top: 10px"
-                                src="img/maestro.jpeg"
-                                width="100%"
-                                height="auto"
-                            />
+                            <img id="maestroimg" src="img/maestro.jpeg" width="100%" height="auto" />
                         </a>
                     </div>
 
@@ -203,7 +198,7 @@
                 </div>
 
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                             <!--card-->
                             <div class="card" style="width: 18rem">
@@ -215,8 +210,11 @@
                                         facere esse similique. Dolore quo doloremque, vel atque magnam labore est,
                                         mollitia non ex aut earum. Doloribus, ad aliquam.
                                     </p>
-                                    <span class="card-subtitle">Lun/Mer/Ven</span>
-                                    <span class="card-subtitle">20:30</span>
+                                    <div class="d-flex">
+                                        <span class="card-subtitle">Lun/Mer/Ven</span><br />
+                                        <span class="card-subtitle">20:30</span>
+                                        <span class="card-subtitle">22:00</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -232,8 +230,11 @@
                                         facere esse similique. Dolore quo doloremque, vel atque magnam labore est,
                                         mollitia non ex aut earum. Doloribus, ad aliquam.
                                     </p>
-                                    <span class="card-subtitle">Mar/Gio/Sab</span>
-                                    <span class="card-subtitle">hh/mm</span>
+                                    <div class="d-flex">
+                                        <span class="card-subtitle">Mar/Gio/Sab</span><br />
+                                        <span class="card-subtitle">h:m</span>
+                                        <span class="card-subtitle">h:m</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -244,19 +245,19 @@
 
         <div id="footer">
             <div id="contatti" class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-122">
                         <h6>DOVE CI TROVIAMO</h6>
-                        <p><span id="info">Via Salvador Dali', 28, 80126 Napoli NA</span></p>
+                        <p><span class="info">Via Salvador Dali', 28, 80126 Napoli NA</span></p>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                         <h6>CONTATTI</h6>
-                        <p><span id="info">Telefono: +391234567890</span></p>
-                        <p><span id="info">E-mail: email@gmail.com</span></p>
+                        <span style="margin-bottom: 5px;" class="info">Telefono: +391234567890</span><br>
+                        <span class="info">E-mail: email@gmail.com</span>
                     </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div id="social" class="col-lg-4 col-md-4 col-sm-12 col-12">
                         <h6>SOCIAL</h6>
 
                         <span class="flex-nowrap" onmouseover="return acceso(this)" onmouseout="return spento(this)"
