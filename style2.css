@@ -1,10 +1,9 @@
 body {
   background-color: black;
-  font-family: "Inter", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: white;
   overflow-x: hidden;
   max-width: 100vw;
-  padding: 0 0.5rem 0 0.5rem;
 }
 
 #inizio {
@@ -13,7 +12,7 @@ body {
   padding-bottom: 7rem;
 }
 
-#separatore {
+.separatore {
   border-bottom: 2px solid #303030;
   margin-top: 30px;
 }
@@ -77,11 +76,12 @@ h3,
 h2 {
   font-weight: bold;
   line-height: 1.2;
+  padding: 0 0 0 0.5rem;
 }
 
 h2 {
   font-weight: 300;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
@@ -116,13 +116,16 @@ h6 {
   padding-top: 2rem;
 }
 
-#posizioneimg{
-  padding-top: 2rem;
+#social {
   padding-bottom: 2rem;
 }
 
-@media(max-width:760px){
-  #divposizione{
+#posizioneimg:hover {
+  border: 2px solid white;
+}
+
+@media (max-width: 760px) {
+  #divposizione {
     justify-content: flex-start !important;
   }
 }
@@ -131,15 +134,15 @@ h6 {
   font-size: 1rem;
 }
 
-p {
+.paragrafo {
   text-align: justify;
   hyphens: auto;
   font-size: 1rem;
   line-height: 1.8;
   color: whitesmoke;
   font-weight: 300;
+  padding: 0 0.5rem 0 0.5rem;
 }
-
 
 .button {
   color: white;
@@ -157,10 +160,12 @@ p {
 
 .card-text {
   font-size: 1rem;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .card-subtitle {
-  font-size: 20px;
+  font-size: 1rem;
   padding: 5px;
 }
 
@@ -172,8 +177,9 @@ p {
 #footer {
   background-color: #0a0a0a;
   margin-top: 2rem;
-  height: 500px;
+  height: auto;
   border-top: 2px solid #303030;
+  justify-content: center;
 }
 
 .icone {

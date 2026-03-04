@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style2.css" />
     </head>
     <body>
@@ -40,7 +47,7 @@
                         <a class="nav-link" href="#maestro">Il maestro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#corsi">Corsi</a>
+                        <a class="nav-link" href="#corsi">Discipline</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contatti">Contatti</a>
@@ -63,7 +70,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                        <p>
+                        <p class="paragrafo">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat deserunt recusandae iure
                             corrupti hic excepturi, veniam dicta unde, necessitatibus nulla culpa perferendis harum
                             earum rerum consequatur ducimus in, architecto pariatur.
@@ -75,16 +82,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                        <a class="btn btn-dark button" href="#corsi">SCOPRI I CORSI</a>
+                        <a class="btn btn-dark button" href="#corsi">LE DISCIPLINE</a>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                         <a class="btn btn-dark button" href="https://web.whatsapp.com">CHIEDI INFO</a>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-10 col-md-12 col-sm-12 col-12">
-                            <div id="separatore"></div>
+                            <div class="separatore"></div>
                         </div>
                     </div>
                 </div>
@@ -114,8 +121,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-12">
-                        <p>
+                    <div class="col-lg-9 col-md-10 col-sm-12 col-12">
+                        <p class="paragrafo">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus aut unde commodi, nam
                             ullam praesentium neque quis ducimus cumque illo hic incidunt atque sunt, dolorum reiciendis
                             vero voluptate ea consequuntur. Mollitia velit esse fugit odio ipsam quae. Vel asperiores
@@ -167,7 +174,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                        <p>
+                        <p class="paragrafo">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corrupti, dolor mollitia,
                             ipsum non dolores possimus accusamus soluta exercitationem ab id voluptatum dicta fugit
                             quasi repellendus sit aspernatur ullam hic, itaque quas temporibus eligendi. Rerum, aliquid
@@ -187,7 +194,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-10 col-sm-10 col-10">
-                        <h2>I CORSI</h2>
+                        <h2>LE DISCIPLINE</h2>
                     </div>
                 </div>
 
@@ -211,7 +218,7 @@
                                         mollitia non ex aut earum. Doloribus, ad aliquam.
                                     </p>
                                     <div class="d-flex">
-                                        <span class="card-subtitle">Lun/Mer/Ven</span><br />
+                                        <span class="card-subtitle">Lun/Mer/Ven</span>
                                         <span class="card-subtitle">20:30</span>
                                         <span class="card-subtitle">22:00</span>
                                     </div>
@@ -291,19 +298,20 @@
                         ></span>
                     </div>
                 </div>
-                <div id="divposizione" class="row justify-content-center">
-                    <div class="col-lg-4 col-md-5 col-sm-8 col-8">
+                <div id="divposizione" class="row justify-content-start">
+                    <div class="col-lg-4 col-md-4 col-sm-8 col-8">
                         <a
                             class="glightbox"
                             href="https://maps.google.com/maps?width=600&height=400&hl=en&q=life%20sport%20pianura&t=&z=14&ie=UTF8&iwloc=B&output=embed"
                             data-gallery="posizione"
                         >
-                            <img id="posizioneimg" src="img/via.png" width="100%" height="auto" />
+                            <img id="posizioneimg" src="img/via.png" width="100%" height="90%" />
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+
         <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
         <script>
             const lightbox = GLightbox({
