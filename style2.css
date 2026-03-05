@@ -8,13 +8,13 @@ body {
 
 #inizio {
   align-content: center;
-  padding-top: 7rem;
+  padding-top: 1.5rem;
   padding-bottom: 7rem;
 }
 
 .separatore {
   border-bottom: 2px solid #303030;
-  margin-top: 30px;
+  margin-top: 2rem; /* 1rem= 16px 2rem=32px 7rem=112px*/
 }
 
 #immagine {
@@ -38,7 +38,7 @@ body {
   margin-bottom: 10px;
 }
 
-#corsi {
+#discipline {
   padding-top: 7rem;
 }
 
@@ -98,8 +98,14 @@ h3 {
 
 @media (max-width: 800px) {
   #titolo {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
+  }
+}
+
+@media(max-width:765px){
+  #divposizione{
+    justify-content: flex-start !important; 
   }
 }
 
@@ -117,17 +123,11 @@ h6 {
 }
 
 #social {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 #posizioneimg:hover {
   border: 2px solid white;
-}
-
-@media (max-width: 760px) {
-  #divposizione {
-    justify-content: flex-start !important;
-  }
 }
 
 .info {
@@ -148,7 +148,7 @@ h6 {
   color: white;
   border-color: white;
   padding: 10px;
-  width: 150px;
+  width: 100%;
   margin: 2px;
 }
 
@@ -162,11 +162,17 @@ h6 {
   font-size: 1rem;
   text-align: justify;
   hyphens: auto;
+  font-weight: 200;
 }
 
 .card-subtitle {
   font-size: 1rem;
-  padding: 5px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.orariocard {
+  padding-left: 5px;
 }
 
 .card-title {
