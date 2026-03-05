@@ -1,7 +1,7 @@
 body {
   background-color: black;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
   color: white;
   overflow-x: hidden;
@@ -177,13 +177,6 @@ h6 {
   background-color: #0a0a0a;
   border: 1px solid white;
   margin-top: 2rem;
-}
-
-.card-text {
-  font-size: 1rem;
-  text-align: justify;
-  hyphens: auto;
-  font-weight: 200;
 }
 
 .card-subtitle {
