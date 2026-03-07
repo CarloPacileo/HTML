@@ -21,7 +21,7 @@ body {
 
 #immagine {
   height: 200px;
-  background-image: url(/img/sfondo.png);
+  background-image: url(../img/sfondo.png);
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
 }
 
 #banner {
-  background-image: url(/img/banner.jpeg);
+  background-image: url(../img/banner.jpeg);
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
