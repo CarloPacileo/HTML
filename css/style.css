@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: whitesmoke;
+  height: auto;
 }
 
 #inizio {
@@ -199,7 +200,7 @@ h6 {
 
 #footer {
   background-color: #0a0a0a;
-  margin-top: 2rem;
+  margin-top: 3rem;
   height: auto;
   border-top: 2px solid #303030;
   justify-content: center;
