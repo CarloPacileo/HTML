@@ -22,7 +22,7 @@ body {
   font-style: normal;
   src:
     local("DreamOrphans-Regular"),
-    url("../font/dream\ orphans.woff") format("woff");
+    url("../font/dream_orphans.woff") format("woff");
 }
 
 html,
