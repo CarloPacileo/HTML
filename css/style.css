@@ -1,6 +1,5 @@
 body {
   background-color: black;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: whitesmoke;
@@ -8,56 +7,27 @@ body {
   overflow-x: hidden;
 }
 
-html,
-body {
-  height: auto;
-}
-
-#inizio {
-  align-content: center;
-  padding-top: 1.5rem;
-  padding-bottom: 7rem;
-}
-
-.separatore {
-  border-bottom: 2px solid #303030;
-  margin-top: 2rem; /* 1rem= 16px 2rem=32px 7rem=112px*/
-}
-
-#immagine {
-  height: 200px;
-  background-image: url(../img/sfondo.png);
-  background-position: center;
-  background-size: 500px;
-  background-repeat: no-repeat;
-}
-
-#chisiamo {
-  padding-top: 7rem;
-}
-
-#maestro {
-  padding-top: 7rem;
-}
-
-#maestroimg {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-#discipline {
-  padding-top: 7rem;
-}
-
-@media (max-width: 500px) {
-  #immagine {
-    background-size: 350px;
-  }
-}
-
 #nav {
   background-color: #0a0a0a;
   border-bottom: 1px solid #303030;
+}
+
+.nav-link,
+.navbar-brand {
+  font-family: "DreamOrphans-Regular", serif;
+}
+
+@font-face {
+  font-family: "DreamOrphans-Regular";
+  font-style: normal;
+  src:
+    local("DreamOrphans-Regular"),
+    url("../font/dream\ orphans.woff") format("woff");
+}
+
+html,
+body {
+  height: auto;
 }
 
 #banner {
@@ -78,46 +48,98 @@ body {
   position: relative; */
 }
 
-h1,
-h3,
-h2 {
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-h2 {
-  font-weight: 300;
-  font-family: "Playfair Display", serif;
-}
-
-h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: large;
-}
-
-#titolo {
+.titolo {
   font-size: 3rem;
   font-weight: bold;
 }
 
-@media (max-width: 800px) {
-  #titolo {
+@media (max-width: 1196px) {
+  .titolo {
+    font-size: 2rem;
+  }
+}
+
+#spantitolo {
+  white-space: nowrap;
+}
+
+/* @media (max-width: 800px) {
+  .titolo {
     font-size: 30px;
   }
 }
 
-@media (min-width: 992px) {
-  .paragrafo,
-  h1,
-  h2,
-  h3,
-  .underliner {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+@media (max-width: 767px) {
+  .titolo {
+    font-size: 25px;
   }
 }
+
+@media (max-width: 500px) {
+  .titolo {
+    font-size: 1rem;
+  }
+} */
+
+.paragrafo {
+  text-align: justify;
+  hyphens: auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: whitesmoke;
+  font-family: "Jost", sans-serif;
+}
+
+
+
+@media (min-width: 992px) {
+  .paragrafo {
+    line-height: 1.7;
+  }
+}
+
+.sezioni {
+  min-height: 80vh;
+  padding-bottom: 7rem;
+  padding-top: 4rem;
+}
+
+h1 {
+  font-family: "DreamOrphans-Regular", serif;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+h2,
+h3,
+h6 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* #immagine {
+  height: 200px;
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+} */
+
+/* #maestroimg {
+  margin-top: 5px;
+  margin-bottom: 10px;
+} */
+
+/* @media (max-width: 500px) {
+  #immagine {
+    background-size: 350px;
+  }
+} */
 
 @media (max-width: 765px) {
   #divposizione {
@@ -151,21 +173,7 @@ h6 {
 
 .info {
   font-size: 1rem;
-}
-
-.paragrafo {
-  text-align: justify;
-  hyphens: auto;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  color: whitesmoke;
-}
-
-@media (min-width: 992px) {
-  .paragrafo {
-    font-size: 1rem;
-    line-height: 1.7;
-  }
+  font-family: "Jost", sans-serif;
 }
 
 .paragrafo_card {
@@ -216,11 +224,6 @@ h6 {
 .icone {
   border-radius: 50%;
   border: 1px solid transparent;
-}
-
-#albo {
-  padding-top: 7rem;
-  min-height:80vh;
 }
 
 .table,
