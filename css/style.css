@@ -90,8 +90,6 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-
-
 @media (min-width: 992px) {
   .paragrafo {
     line-height: 1.7;
@@ -122,24 +120,38 @@ h6 {
   font-family: "Cormorant Garamond", serif;
 }
 
-/* #immagine {
-  height: 200px;
+#immagine {
+  height: 190px;
   background-image: url(../img/sfondo.png);
   background-position: center;
   background-size: 500px;
   background-repeat: no-repeat;
-} */
+}
 
-/* #maestroimg {
+#biografia{
+  overflow: hidden;
+}
+
+#maestroimg{
   margin-top: 5px;
-  margin-bottom: 10px;
-} */
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
 
-/* @media (max-width: 500px) {
+#maestroimg2{
+  margin-top: 5px;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+@media (max-width: 550px) {
   #immagine {
-    background-size: 350px;
+    background-size: 320px;
   }
-} */
+}
 
 @media (max-width: 765px) {
   #divposizione {
