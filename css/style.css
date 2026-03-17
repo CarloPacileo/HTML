@@ -48,7 +48,18 @@ body {
   position: relative; */
 }
 
-.titolo {
+#news{
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a;
+}
+
+.newsModal{
+  border: 1px solid white;
+  background-color:#0a0a0a ;
+}
+
+/* .titolo {
   font-size: 3rem;
   font-weight: bold;
 }
@@ -61,7 +72,7 @@ body {
 
 #spantitolo {
   white-space: nowrap;
-}
+} */
 
 /* @media (max-width: 800px) {
   .titolo {
@@ -88,6 +99,8 @@ body {
   line-height: 1.6;
   color: whitesmoke;
   font-family: "Jost", sans-serif;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 @media (min-width: 992px) {
@@ -120,6 +133,26 @@ h6 {
   font-family: "Cormorant Garamond", serif;
 }
 
+.img-card{
+  margin-top: 6px;
+  margin-bottom: 5px;
+  
+}
+
+@media(max-width:765px){
+  .img-card{
+    width: 65%;
+  }
+}
+
+@media(max-width:991px){
+#maestroimg,#maestroimg2{
+    width: 65%;
+  }
+}
+
+
+
 #immagine {
   height: 190px;
   background-image: url(../img/sfondo.png);
@@ -132,19 +165,12 @@ h6 {
   overflow: hidden;
 }
 
-#maestroimg{
-  margin-top: 5px;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+
+
+#maestroimg,#maestroimg2{
+  margin: 0 auto;
+  display: block;
 }
-
-#maestroimg2{
-  margin-top: 5px;
-  margin-bottom: 1rem;
-}
-
-
-
 
 
 @media (max-width: 550px) {
@@ -196,17 +222,9 @@ h6 {
   font-weight: 300;
 }
 
-.button {
-  color: white;
-  border-color: white;
-  width: 100%;
-  padding: 5px 5px 5px 5px;
-}
-
 .card {
-  background-color: #0a0a0a;
-  border: 1px solid white;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  background-color: black;
 }
 
 .card-subtitle {
