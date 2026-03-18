@@ -13,8 +13,17 @@ body {
 }
 
 .nav-link,
-.navbar-brand {
+.navbar-brand,
+.dropdown-item {
   font-family: "DreamOrphans-Regular", serif;
+}
+
+.dropdown-item{
+  color: whitesmoke;
+}
+
+.dropdown-menu{
+  background-color: #0a0a0a;
 }
 
 @font-face {
@@ -131,6 +140,7 @@ h2,
 h3,
 h6 {
   font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
 }
 
 .img-card{
